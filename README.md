@@ -1,8 +1,10 @@
 # Python-API-Challenge- What's the Weather like?
 
-## WeatherPy
+How to manipulate data to find ideal vacation spots across the globe? Let me show you!  
 
-In this example, I created a Python script to visualize the weather of 500+ random (non-repeating) cities across the world of varying distance from the equator. I have used a simple Python library- citipy- and the OpenWeatherMap API, to create a representative model of weather across world cities and performing a weather check on each of the cities using a series of successive API calls.
+## Part 1. WeatherPy
+
+In this part, I have created a Python script to visualize the weather of 500+ random (non-repeating) cities across the world of varying distance from the equator. I have used a simple Python library- citipy- and the OpenWeatherMap API, to create a representative model of weather across world cities and performing a weather check on each of the cities using a series of successive API calls.
 
 The two objectives of this exercise are:
 
@@ -13,14 +15,14 @@ The two objectives of this exercise are:
 * [Latitude vs WindSpeed](#Latitude_vs_WindSpeed)
 
 ### 2. Run Linear Regression for Northern and Southern Hemisphere for:
-* [Northern Hemisphere - Temperature (F) vs. Latitude](#northern_hemisphere_temperature_vs_latitude)
-* [Southern Hemisphere - Temperature (F) vs. Latitude](#southern_hemisphere_temperature_vs_latitude)
-* [Northern Hemisphere - Humidity (%) vs. Latitude](#northern_hemisphere_humidity_vs_latitude)
-* [Southern Hemisphere - Humidity (%) vs. Latitude](#southern_hemisphere_humidity_vs_latitude)
-* [Northern Hemisphere - Cloudiness (%) vs. Latitude](#northern_hemisphere_cloudiness_vs_latitude)
-* [Southern Hemisphere - Cloudiness (%) vs. Latitude](#southern_hemisphere_cloudiness_vs_latitude)
-* [Northern Hemisphere - Wind Speed (mph) vs. Latitude](#northern_hemisphere_wind_speed_vs_latitude)
-* [Southern Hemisphere - Wind Speed (mph) vs. Latitude](#southern_hemisphere_wind_speed_vs_latitude)
+* [Northern Hemisphere Temperature vs Latitude](#northern_hemisphere_temperture_vs_latitude)
+* [Southern Hemisphere Temperature vs Latitude](#southern_hemisphere_temperture_vs_latitude)
+* [Northern Hemisphere Humidity vs Latitude](#northern_hemisphere_humidity_vs_latitude)
+* [Southern Hemisphere Humidity vs Latitude](#southern_hemisphere_humidity_vs_latitude)
+* [Northern Hemisphere Cloudiness vs Latitude](#northern_hemisphere_cloudiness_vs_latitude)
+* [Southern Hemisphere Cloudiness vs Latitude](#southern_hemisphere_cloudiness_vs_latitude)
+* [Northern Hemisphere Wind Speed vs Latitude](#northern_hemisphere_wind_speed_vs_latitude)
+* [Southern Hemisphere Wind Speed vs Latitude](#southern_hemisphere_wind_speed_vs_latitude)
 
 ### Scattered Plots
 
@@ -58,59 +60,81 @@ The two objectives of this exercise are:
     
 ### Linear Regrissions
 
-#### Northern Hemisphere - Temperature (F) vs. Latitude
+#### Northern Hemisphere Temperature vs Latitude
 <table>
   <tr>
     <td><img src="WeatherPy/Images/fig5.png" width=270></td>
   <tr>
 <table>
     
-#### Southern Hemisphere - Temperature (F) vs. Latitude
+#### Southern Hemisphere Temperature vs Latitude
 <table>
   <tr>
     <td><img src="WeatherPy/Images/fig6.png" width=270></td>
   <tr>
 <table>
 
-#### Northern Hemisphere - Humidity (%) vs. Latitude
+#### Northern Hemisphere Humidity vs Latitude
 <table>
   <tr>
     <td><img src="WeatherPy/Images/fig7.png" width=270></td>
   <tr>
 <table>
  
-#### Southern Hemisphere - Humidity (%) vs. Latitude
+#### Southern Hemisphere Humidity vs Latitude
 <table>
   <tr>
     <td><img src="WeatherPy/Images/fig8.png" width=270></td>
   <tr>
 <table>
     
-#### Northern Hemisphere - Cloudiness (%) vs. Latitude
+#### Northern Hemisphere Cloudiness vs Latitude
 <table>
   <tr>
     <td><img src="WeatherPy/Images/fig9.png" width=270></td>
   <tr>
 <table>
     
-#### Southern Hemisphere - Cloudiness (%) vs. Latitude
+#### Southern Hemisphere Cloudiness vs Latitude
 <table>
   <tr>
     <td><img src="WeatherPy/Images/fig10.png" width=270></td>
   <tr>
 <table>
     
-#### Northern Hemisphere - Wind Speed (mph) vs. Latitude
+#### Northern Hemisphere Wind Speed vs Latitude
 <table>
   <tr>
     <td><img src="WeatherPy/Images/fig11.png" width=270></td>
   <tr>
 <table>
     
-#### Southern Hemisphere - Wind Speed (mph) vs. Latitude
+#### Southern Hemisphere Wind Speed vs Latitude
 <table>
   <tr>
     <td><img src="WeatherPy/Images/fig12.png" width=270></td>
   <tr>
 <table>
+    
+## Part 2. VacationPy
+In this part I have created Python script to export data creted in part 1 and use that data to generate heat maps for cities with ideal variables for best vacation spot of choice. Once that was done, using google places API, I created a list of hotels that were in 5000 meters radius from the ideal cities. I used markers to locate them on goole map on top of the heat map. 
+    
+#### Heat Map of Ideal Cities
+<table>
+  <tr>
+    <td><img src="WeatherPy/Images/Heat_Map.png" width=270></td>
+  <tr>
+<table>
+* Above heat map shows humidity of cities from part one.
+    
+#### Heat Map of Ideal Cities
+<table>
+  <tr>
+    <td><img src="WeatherPy/Images/Heat_Map_w_Markers.png" width=270></td>
+  <tr>
+<table>
+* Above heat map shows hotels in the citi radius of 5000 meters that has below variables:
+  1. Temperature between 70 and 80 (F)
+  2. Zero Cloudiness
+  3. Wind Speed less than 10
     
