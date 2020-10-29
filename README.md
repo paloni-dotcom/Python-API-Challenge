@@ -18,14 +18,32 @@ The objective of this exercise was to generate various scattered plots showing c
     <td><img src="WeatherPy/Images/fig1.png" width=270></td>
   <tr>
 <table>
-
-
+* Above plot shows that temperatures are higher as you get closer to the equator. 
 
 ### Latitude_vs_Humidity
+<table>
+  <tr>
+    <td><img src="WeatherPy/Images/fig2.png" width=270></td>
+  <tr>
+<table>
+* Above plot shows that humidity is relatively consistant across all latitudes. 
+    
 ### Latitude_vs_Cloudiness
+<table>
+  <tr>
+    <td><img src="WeatherPy/Images/fig3.png" width=270></td>
+  <tr>
+<table>
+* Above plot shows that cloudiness is relatively consistant across all latitudes.
+    
 ### Latitude_vs_WindSpeed
+<table>
+  <tr>
+    <td><img src="WeatherPy/Images/fig4.png" width=270></td>
+  <tr>
+<table>
+* Above plot shows that Wind Speed is somewhat indiffernt to the latitudes but if you notice that Wind Speed outliners all are at latitudes furthest from equator. 
+    
 
 
-* In above image you can clearly see relationship between Latitude and Temperature
-
-### Latitude_vs_Temperature
+    
