@@ -122,7 +122,7 @@ In this part I have created Python script to export data created in part 1 and u
 #### Heat Map of Ideal Cities
 <table>
   <tr>
-    <td><img src="WeatherPy/Images/Heat_Map.png" width=520></td>
+    <td><img src="WeatherPy/Images/Heat_Map.png" width=1040></td>
   <tr>
 <table>
 * Above heat map shows humidity of cities from part one.
@@ -130,7 +130,7 @@ In this part I have created Python script to export data created in part 1 and u
 #### Heat Map of Ideal Cities
 <table>
   <tr>
-    <td><img src="WeatherPy/Images/Heat_Map_w_Markers.png" width=520></td>
+    <td><img src="WeatherPy/Images/Heat_Map_w_Markers.png" width=1040></td>
   <tr>
 <table>
 * Above heat map shows hotels in the citi radius of 5000 meters that has below variables:
