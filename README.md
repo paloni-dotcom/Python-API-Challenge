@@ -117,7 +117,7 @@ The two objectives of this exercise are:
 <table>
     
 ## Part 2. VacationPy
-In this part I have created Python script to export data creted in part 1 and use that data to generate heat maps for cities with ideal variables for best vacation spot of choice. Once that was done, using google places API, I created a list of hotels that were in 5000 meters radius from the ideal cities. I used markers to locate them on goole map on top of the heat map. 
+In this part I have created Python script to export data created in part 1 and use that data to generate heat maps for cities with ideal variables for best vacation spot of choice. Once that was done, using google places API, I created a list of hotels that were in 5000 meters radius from the ideal cities. I used markers to locate them on goole map on top of the heat map. 
     
 #### Heat Map of Ideal Cities
 <table>
