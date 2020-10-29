@@ -13,14 +13,14 @@ The two objectives of this exercise are:
 * [Latitude vs WindSpeed](#Latitude_vs_WindSpeed)
 
 ### 2. Run Linear Regression for Northern and Southern Hemisphere for:
-* [Northern Hemisphere - Temperature (F) vs. Latitude](#northern hemisphere-temperature vs latitude)
-* [Southern Hemisphere - Temperature (F) vs. Latitude](#southern hemisphere-temperature vs latitude)
-* [Northern Hemisphere - Humidity (%) vs. Latitude](#northern hemisphere-humidity vs latitude)
-* [Southern Hemisphere - Humidity (%) vs. Latitude](#southern hemisphere-humidity vs latitude)
-* [Northern Hemisphere - Cloudiness (%) vs. Latitude](#northern hemisphere-cloudiness vs latitude)
-* [Southern Hemisphere - Cloudiness (%) vs. Latitude](#southern hemisphere-cloudiness vs latitude)
-* [Northern Hemisphere - Wind Speed (mph) vs. Latitude](#northern hemisphere-wind speed vs latitude)
-* [Southern Hemisphere - Wind Speed (mph) vs. Latitude](#southern hemisphere-wind speed vs latitude)
+* [Northern Hemisphere - Temperature (F) vs. Latitude](#northern_hemisphere_temperature_vs_latitude)
+* [Southern Hemisphere - Temperature (F) vs. Latitude](#southern_hemisphere_temperature_vs_latitude)
+* [Northern Hemisphere - Humidity (%) vs. Latitude](#northern_hemisphere_humidity_vs_latitude)
+* [Southern Hemisphere - Humidity (%) vs. Latitude](#southern_hemisphere_humidity_vs_latitude)
+* [Northern Hemisphere - Cloudiness (%) vs. Latitude](#northern_hemisphere_cloudiness_vs_latitude)
+* [Southern Hemisphere - Cloudiness (%) vs. Latitude](#southern_hemisphere_cloudiness_vs_latitude)
+* [Northern Hemisphere - Wind Speed (mph) vs. Latitude](#northern_hemisphere_wind_speed_vs_latitude)
+* [Southern Hemisphere - Wind Speed (mph) vs. Latitude](#southern_hemisphere_wind_speed_vs_latitude)
 
 ### Scattered Plots
 
@@ -72,42 +72,42 @@ The two objectives of this exercise are:
   <tr>
 <table>
 
-#### Northern Hemisphere - Humidity vs. Latitude
+#### Northern Hemisphere - Humidity (%) vs. Latitude
 <table>
   <tr>
     <td><img src="WeatherPy/Images/fig7.png" width=270></td>
   <tr>
 <table>
  
-#### Southern Hemisphere - Humidity vs. Latitude
+#### Southern Hemisphere - Humidity (%) vs. Latitude
 <table>
   <tr>
     <td><img src="WeatherPy/Images/fig8.png" width=270></td>
   <tr>
 <table>
     
-#### Northern Hemisphere - Cloudiness vs. Latitude
+#### Northern Hemisphere - Cloudiness (%) vs. Latitude
 <table>
   <tr>
     <td><img src="WeatherPy/Images/fig9.png" width=270></td>
   <tr>
 <table>
     
-#### Southern Hemisphere - Cloudiness vs. Latitude
+#### Southern Hemisphere - Cloudiness (%) vs. Latitude
 <table>
   <tr>
     <td><img src="WeatherPy/Images/fig10.png" width=270></td>
   <tr>
 <table>
     
-#### Northern Hemisphere - Windspeed vs. Latitude
+#### Northern Hemisphere - Wind Speed (mph) vs. Latitude
 <table>
   <tr>
     <td><img src="WeatherPy/Images/fig11.png" width=270></td>
   <tr>
 <table>
     
-#### Southern Hemisphere - Windspeed vs. Latitude
+#### Southern Hemisphere - Wind Speed (mph) vs. Latitude
 <table>
   <tr>
     <td><img src="WeatherPy/Images/fig12.png" width=270></td>
