@@ -13,4 +13,19 @@ The objective of this exercise was to generate various scattered plots showing c
 
 
 ### Latitude_vs_Temperature
+<table>
+  <tr>
+    <td><img src="WeatherPy/Images/fig1.png" width=270></td>
+  <tr>
+<table>
 
+
+
+### Latitude_vs_Humidity
+### Latitude_vs_Cloudiness
+### Latitude_vs_WindSpeed
+
+
+* In above image you can clearly see relationship between Latitude and Temperature
+
+### Latitude_vs_Temperature
