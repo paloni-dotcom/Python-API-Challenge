@@ -15,14 +15,14 @@ The two objectives of this exercise are:
 * [Latitude vs WindSpeed](#Latitude_vs_WindSpeed)
 
 ### 2. Run Linear Regression for Northern and Southern Hemisphere for:
-* [Northern Hemisphere Temperature vs Latitude](#northern_hemisphere_temperture_vs_latitude)
-* [Southern Hemisphere Temperature vs Latitude](#southern_hemisphere_temperture_vs_latitude)
-* [Northern Hemisphere Humidity vs Latitude](#northern_hemisphere_humidity_vs_latitude)
-* [Southern Hemisphere Humidity vs Latitude](#southern_hemisphere_humidity_vs_latitude)
-* [Northern Hemisphere Cloudiness vs Latitude](#northern_hemisphere_cloudiness_vs_latitude)
-* [Southern Hemisphere Cloudiness vs Latitude](#southern_hemisphere_cloudiness_vs_latitude)
-* [Northern Hemisphere Wind Speed vs Latitude](#northern_hemisphere_wind_speed_vs_latitude)
-* [Southern Hemisphere Wind Speed vs Latitude](#southern_hemisphere_wind_speed_vs_latitude)
+* [Northern Hemisphere Temperature vs Latitude](#Northern_Hemisphere_Temperture_vs_Latitude)
+* [Southern Hemisphere Temperature vs Latitude](#Southern_Hemisphere_Temperture_vs_Latitude)
+* [Northern Hemisphere Humidity vs Latitude](#Northern_Hemisphere_Humidity_vs_Latitude)
+* [Southern Hemisphere Humidity vs Latitude](#Southern_Hemisphere_Humidity_vs_Latitude)
+* [Northern Hemisphere Cloudiness vs Latitude](#Northern_Hemisphere_Cloudiness_vs_Latitude)
+* [Southern Hemisphere Cloudiness vs Latitude](#Southern_Hemisphere_Cloudiness_vs_Latitude)
+* [Northern Hemisphere Wind Speed vs Latitude](#Northern_Hemisphere_Wind_Speed_vs_Latitude)
+* [Southern Hemisphere Wind Speed vs Latitude](#Southern_Hemisphere_Wind_Speed_vs_Latitude)
 
 ### Scattered Plots
 
@@ -138,3 +138,6 @@ In this part I have created Python script to export data creted in part 1 and us
   2. Zero Cloudiness
   3. Wind Speed less than 10
     
+## Data Source
+1. CitiPy: https://pypi.python.org/pypi/citipy
+2. OpenWeather: https://openweathermap.org/api
